@@ -11,6 +11,12 @@ public class MAIN {
         for(int n = 0; n < list.size(); n++){
             System.out.println("Element " + n + " contains: " + list.get(n));
         }
+
+        InsertAt(2, 17);
+
+        for(int n = 0; n < list.size(); n++){
+            System.out.println("Element " + n + " contains: " + list.get(n));
+        }
     }
 
     public static void RemoveFirst(){ // tar bort element i början
@@ -37,7 +43,7 @@ public class MAIN {
         list.add(data); // lägger till
     }
 
-    public static void InsertAt(int index, Number data) throws IndexOutOfBoundsException{ // lägger till element i en specific position
+    public static void InsertAt(int index, Number data){ // lägger till element i en specific position
         if(list.isEmpty()){ // om listan är tom
             System.out.println("list is empty");
             return; // avslutar metod
@@ -52,7 +58,7 @@ public class MAIN {
         }
     }
 
-    public static void RemoveAt(int index) throws IndexOutOfBoundsException{ // tar bort element i en specific position
+    public static void RemoveAt(int index){ // tar bort element i en specific position
         if(list.isEmpty()){ // om listan är tom
             System.out.println("list is empty");
             return; // avslutar metod
