@@ -11,12 +11,6 @@ public class MAIN {
         for(int n = 0; n < list.size(); n++){
             System.out.println("Element " + n + " contains: " + list.get(n));
         }
-
-        InsertAt(2, 17);
-
-        for(int n = 0; n < list.size(); n++){
-            System.out.println("Element " + n + " contains: " + list.get(n));
-        }
     }
 
     public static void RemoveFirst(){ // tar bort element i början
