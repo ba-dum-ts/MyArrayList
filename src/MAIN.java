@@ -1,9 +1,15 @@
 import java.util.ArrayList;
 
 public class MAIN {
-    static ArrayList<Number> list = new ArrayList<>();
+    static ArrayList<Number> list = new ArrayList<>(); // en lista som består av alla typer av nummer (t.ex. int, double, float etc)
 
-    public static void main(String args[]){
+    /*
+    simpel lista av array
+    Om du vill testa programmet kan du kalla på metoden och därefter kopiera for lopen som printar ut listan och se resultatet
+    jag försökte spara tid så jag undvek den biten
+     */
+
+    public static void main(String args[]){ // skriver ut lista
         list.add(420);
         list.add(9.11);
         list.add(21);
