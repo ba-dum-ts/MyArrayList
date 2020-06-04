@@ -47,7 +47,9 @@ public class MAIN {
             list.add(index, data);
         }
 
-        catch(IndexOutOfBoundsException e){} // om index är större än antal elementer i listan slängs det en exception
+        catch(IndexOutOfBoundsException e){ // om index är större än antal elementer i listan slängs det en exception
+            System.out.println("position given is out of reach");
+        }
     }
 
     public static void RemoveAt(int index) throws IndexOutOfBoundsException{ // tar bort element i en specific position
@@ -60,6 +62,8 @@ public class MAIN {
             list.remove(index);
         }
 
-        catch(IndexOutOfBoundsException e){} // om index är större än antal elementer i listan slängs det en exception
+        catch(IndexOutOfBoundsException e){// om index är större än antal elementer i listan slängs det en exception
+            System.out.println("position given is out of reach");
+        }
     }
 }
