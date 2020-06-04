@@ -5,7 +5,7 @@ public class MAIN {
 
     /*
     simpel lista av array
-    Om du vill testa programmet kan du kalla på metoden och därefter kopiera for lopen som printar ut listan och se resultatet
+    Om du vill testa programmet kan du kalla på metoden och därefter kopiera/klistra in for lopen som printar ut listan och se resultatet
     jag försökte spara tid så jag undvek den biten
      */
 
