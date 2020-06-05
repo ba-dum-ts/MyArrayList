@@ -4,7 +4,7 @@ public class MAIN {
     static ArrayList<Number> list = new ArrayList<>(); // en lista som består av alla typer av nummer (t.ex. int, double, float etc)
 
     /*
-    simpel lista av array
+    en simpel vektor lista
     Om du vill testa programmet kan du kalla på metoden och därefter kopiera/klistra in for lopen som printar ut listan och se resultatet
     jag försökte spara tid så jag undvek den biten
      */
